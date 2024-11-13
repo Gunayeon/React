@@ -1,0 +1,66 @@
+
+/* Todolist.css */
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    height: 40px;
+    padding: 0 15px; /* 좌우 여백 설정 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    height: 40px;
+    padding: 0 20px; /* 좌우 여백 설정 */
+    background-color: pink;
+    color: rgb(82, 14, 25);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #f7b2c7;
+    color: #ffffff;
+}
+
+.title {
+    color:pink;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    width:300px;
+    height:50px;
+    border:1px solid pink;
+   
+}
+
+.delete-button{
+    height: 30px;
+}
+
+    
+ 
